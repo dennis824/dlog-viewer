@@ -18,8 +18,11 @@ Use at your own risk.
 <br>
 
 ## Installation
-Install the python dependencies using pip:
-```
+Install the python dependencies using bash or cmd:
+
+``` bash
+  git clone https://github.com/dennis824/dlog-viewer.git &&
+  cd dlog-viewer &&
   pip install -r requirements.txt
 ```
 
@@ -36,7 +39,17 @@ dlog-viewer options include:
 * CSV export of raw measurements (`--csv-export`), and
 * JSON export of measurements and detected changepoints (`--json-export`).
 
-See `bin/dlog-viewer --help` for details.
+<br>
+
+> [!IMPORTANT]  
+> Make sure you are in the root folder of the repository.
+> Then you could run the following command to see the details:
+
+<br>
+
+```
+python bin/dlog-viewer --help
+```
 
 <br>
 
