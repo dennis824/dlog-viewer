@@ -15,6 +15,16 @@ synchronization signals in the logged power traces.
 This program is not affiliated with Keysight and has not been thoroughly tested, as I only have a singly type of power analyzer at hand.
 Use at your own risk.
 
+<br>
+
+## Installation
+Install the python dependencies using pip:
+```
+  pip install -r requirements.txt
+```
+
+<br>
+
 ## Usage
 
 Obtain a .dlog file e.g. by using the instrument's data logger feature.
@@ -27,6 +37,8 @@ dlog-viewer options include:
 * JSON export of measurements and detected changepoints (`--json-export`).
 
 See `bin/dlog-viewer --help` for details.
+
+<br>
 
 ## Dependencies
 
